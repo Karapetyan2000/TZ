@@ -1,0 +1,26 @@
+.currency-converter {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .currency-converter.row {
+    flex-direction: row;
+  }
+  
+  .currency-converter.column {
+    flex-direction: column;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+  }
